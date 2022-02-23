@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # mbti-with-sfc
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -27,3 +28,7 @@ npm run dev
 ```sh
 npm run build
 ```
+=======
+# mbti
+Music Beethoven Taste Indicator(MBTI) with vue.js(v3)
+>>>>>>> b28b6fcf3350e0f18ae12bcc5a659ab7dd6c0c28
