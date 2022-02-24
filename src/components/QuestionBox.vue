@@ -16,12 +16,12 @@
 <style scoped>
     #indicator_wrapper {
         height : 20%;
-        margin : 0;
     }
     #indicator {
         font-weight : bold;
         color : rgb(255,255,255);
         font-size : 18px;
+        margin : 0;
     }
     #question_wrapper {
         height : 30%;
@@ -31,5 +31,6 @@
         color : rgb(255,255,255);
         font-size : 24px;
         text-align : center;       
+        margin : 0;
     }
 </style>
