@@ -20,6 +20,7 @@
         border-radius : 20px;
         border-style : none;
         font-size : 18px;
+        font-weight: bold;
     }
     #yes_button {
         background-color : rgb(226,216,123);
