@@ -1,8 +1,11 @@
 <script>
     import QuestionPage from "./QuestionPage.vue"
-    
+    import MainPage from "./MainPage.vue"
+    import ResultPage from "./ResultPage.vue"
     const routes = {
-        '/question' : QuestionPage
+        'question' : QuestionPage,
+        '': MainPage,
+        'result' :ResultPage
     }
     export default {
         data () {
@@ -12,11 +15,10 @@
         },
         computed: {
             currentView() {
-                return routes[this.currentPath.slice(1)]
+                return routes[this.currentPath.slice(1)] 
             }
         },
-        mouted() {
-            confirm.log(window.location.hash)
+        mounted() {
             window.addEventListener('hashchange', () => {
                 this.currentPath = window.location.hash    
             })
